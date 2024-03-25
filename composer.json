@@ -1,0 +1,5 @@
+{
+    "require": {
+        "zounar/php-proxy": "^1.1"
+    }
+}

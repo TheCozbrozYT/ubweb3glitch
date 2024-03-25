@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fc564d0fd21eb7dbc19072ccf470dd8c",
+    "packages": [
+        {
+            "name": "zounar/php-proxy",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zounar/php-proxy.git",
+                "reference": "67e83a8bd7489b220a94402664fa22d9e21e3d40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zounar/php-proxy/zipball/67e83a8bd7489b220a94402664fa22d9e21e3d40",
+                "reference": "67e83a8bd7489b220a94402664fa22d9e21e3d40",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-zlib": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zounar\\PHPProxy\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Zounar",
+                    "homepage": "https://zounar.me"
+                }
+            ],
+            "description": "Forward your HTTP/HTTPS requests to another server.",
+            "homepage": "https://github.com/zounar/php-proxy",
+            "keywords": [
+                "curl",
+                "curlphp",
+                "http",
+                "http-proxy",
+                "php",
+                "php-proxy",
+                "proxy",
+                "proxy-script"
+            ],
+            "support": {
+                "docs": "https://github.com/zounar/php-proxy/blob/master/README.md",
+                "issues": "https://github.com/zounar/php-proxy/issues",
+                "source": "https://github.com/zounar/php-proxy"
+            },
+            "time": "2021-03-28T19:22:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
